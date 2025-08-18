@@ -12,4 +12,7 @@ plt.xlabel("X Values")
 plt.ylabel("Y Values")
 plt.title("Line Graph")
 
+# Color
+plt.plot(n,m, color="red")
+
 plt.show()
