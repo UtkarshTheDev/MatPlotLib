@@ -17,6 +17,11 @@ plt.plot(n,m, color="red")
 # Line Width
 plt.plot(n,m,linewidth=5)
 
+# With Legend
+plt.plot(n,label="List of n")
+plt.plot(m,label="List of m")
+plt.legend(loc="upper right")
+
 # Line Style
 plt.plot(n,m,ls="--")
 
