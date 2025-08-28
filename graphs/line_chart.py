@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 from data.list import n,m
-from data.dataframe import df
+from data.dataframe.data import df
 
 # Line
 # plt.plot(n,m)

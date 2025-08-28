@@ -1,5 +1,5 @@
 import matplotlib.pyplot as plt
-from data.dataframe import df
+from data.dataframe.data import df
 
 plt.xlabel("ODI")
 plt.ylabel("Test")
